@@ -1,0 +1,208 @@
+/* ==========================
+   style.css (place in same folder)
+   ==========================
+*/
+
+body {
+  margin:0;
+  font-family: 'Inter', Arial, sans-serif;
+  background:#fff;
+  color:#202124;
+}
+.google-header {
+  text-align:center;
+  padding:40px 0 20px;
+}
+.google-logo {
+  font-size:50px;
+  font-weight:700;
+  letter-spacing:-3px;
+}
+.google-logo .g {color:#4285F4}
+.google-logo .o1{color:#EA4335}
+.google-logo .o2{color:#FBBC05}
+.google-logo .g2{color:#4285F4}
+.google-logo .l {color:#34A853}
+.google-logo .e {color:#EA4335}
+
+.search-section {
+  display:flex;
+  justify-content:center;
+  margin-bottom:30px;
+}
+.search-bar {
+  display:flex;
+  gap:8px;
+  border:1px solid #dadce0;
+  border-radius:24px;
+  padding:6px 12px;
+  width:600px;
+  max-width:90%;
+}
+.search-bar input {
+  flex:1;
+  border:none;
+  outline:none;
+  font-size:16px;
+}
+.search-bar button {
+  border:none;
+  background:#f8f9fa;
+  padding:6px 14px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.results {
+  max-width:650px;
+  margin:0 auto;
+  padding:0 16px;
+}
+.result {margin-bottom:28px}
+.result-title {
+  font-size:18px;
+  color:#1a0dab;
+  text-decoration:none;
+}
+.result-link {
+  font-size:14px;
+  color:#006621;
+  margin:4px 0;
+}
+.result-desc {
+  font-size:14px;
+  color:#4d5156;
+}
+
+.google-footer {
+  text-align:center;
+  padding:40px 0;
+  font-size:12px;
+  color:#70757a;
+  border-top:1px solid #dadce0;
+  margin-top:40px;
+}
+
+
+body {
+  margin:0;
+  font-family: 'Inter', Arial, sans-serif;
+  background:#fff;
+  color:#202124;
+}
+
+.google-header {
+  text-align:center;
+  padding:40px 0 20px;
+}
+
+.google-logo {
+  font-size:50px;
+  font-weight:700;
+  letter-spacing:-3px;
+}
+.google-logo .g {color:#4285F4}
+.google-logo .o1{color:#EA4335}
+.google-logo .o2{color:#FBBC05}
+.google-logo .g2{color:#4285F4}
+.google-logo .l {color:#34A853}
+.google-logo .e {color:#EA4335}
+
+.search-section {
+  display:flex;
+  justify-content:center;
+  margin-bottom:30px;
+}
+
+.search-bar {
+  display:flex;
+  gap:8px;
+  border:1px solid #dadce0;
+  border-radius:24px;
+  padding:6px 12px;
+  width:600px;
+  max-width:90%;
+}
+
+.search-bar input {
+  flex:1;
+  border:none;
+  outline:none;
+  font-size:16px;
+}
+
+.search-bar button {
+  border:none;
+  background:#f8f9fa;
+  padding:6px 14px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.main-content {
+  display:flex;
+  gap:24px;
+  max-width:1100px;
+  margin:0 auto;
+  padding:0 16px;
+}
+
+.results {
+  flex:2;
+}
+
+.result {margin-bottom:28px}
+
+.result-title {
+  font-size:18px;
+  color:#1a0dab;
+  text-decoration:none;
+}
+
+.result-link {
+  font-size:14px;
+  color:#006621;
+  margin:4px 0;
+}
+
+.result-desc {
+  font-size:14px;
+  color:#4d5156;
+}
+
+.address-card {
+  flex:1;
+  border:1px solid #dadce0;
+  padding:16px;
+  border-radius:8px;
+  height:fit-content;
+  position:sticky;
+  top:100px;
+  background:#f8f9fa;
+}
+
+.address-card h3 {
+  margin-top:0;
+  font-size:16px;
+}
+
+.google-footer {
+  text-align:center;
+  padding:40px 0;
+  font-size:12px;
+  color:#70757a;
+  border-top:1px solid #dadce0;
+  margin-top:40px;
+}
+
+/* Responsive */
+@media(max-width:900px) {
+  .main-content {
+    flex-direction:column;
+  }
+  .address-card {
+    position:relative;
+    top:auto;
+    margin-top:20px;
+  }
+}
